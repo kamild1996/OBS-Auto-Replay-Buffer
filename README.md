@@ -4,7 +4,7 @@
 |-----|---------|---------|-----------|
 |[![Travis Build Status](https://travis-ci.org/DungFu/OBS-Auto-Record.svg?branch=master)](https://travis-ci.org/DungFu/OBS-Auto-Record)|[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/xxe0gbovybndeeyv/branch/master?svg=true)](https://ci.appveyor.com/project/DungFu/obs-auto-record)|[![Latest GitHub Release](https://img.shields.io/github/release/DungFu/OBS-Auto-Record.svg)](https://github.com/DungFu/OBS-Auto-Record/releases/latest)|[![Total Downloads](https://img.shields.io/github/downloads/DungFu/OBS-Auto-Record/total.svg)](https://github.com/DungFu/OBS-Auto-Record/releases/latest)|
 
-Controls OBS to auto record specific games when they are running (works on Windows/Mac)
+Being a small modification of DungFu's OBS-Auto-Record, OBS-Auto-Replay-Buffer controls OBS to enable buffer replay when specific games are being run (works on Windows/Mac)
 
 ![OBS Auto Record Screenshot](https://i.imgur.com/Ist6StX.png)
 
@@ -18,6 +18,7 @@ Controls OBS to auto record specific games when they are running (works on Windo
 ## How to compile
 ### Windows
 Install [Microsoft Visual Studio Code](https://code.visualstudio.com/download)
+
 Install [Qt Creator](https://www.qt.io/download) (with corresponding msvsc version in newest Qt version)
 ```
 qpm install
